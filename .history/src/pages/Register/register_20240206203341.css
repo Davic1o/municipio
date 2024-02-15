@@ -1,0 +1,53 @@
+
+.register__recuadro{
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.288) 1%, rgba(16, 0, 235, 0.171));
+}
+.register__formulario{
+    margin-top: 60px;
+}
+
+.contenedor__zona{
+    width: 325px;
+    margin: 25px;
+    display: flex;
+    justify-content: right;
+    border-bottom: 2px solid white;
+}
+
+
+.contenedor__zona select {
+    width: 300px;
+    margin: 0px;
+    justify-content: right;
+    font-size: 18px;
+    background-color: blue;
+    color: rgb(0, 20, 50);
+    border: none;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+  }
+/* Estilo para la primera opción del select */
+.primer__opcion {
+    color: #FF0000; /* Puedes ajustar el color según tus preferencias */
+  }
+  #zona {
+    color: inherit;
+  }
+  
+  #zona option {
+    color: inherit;
+  }
+  
+  /* Estilos adicionales para resaltar el texto del placeholder */
+  .contenedor__zona select::placeholder {
+    font-size: 18px;
+  }
+  
+  .contenedor__zona select:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255); /* Cambia el color del borde cuando el select está enfocado */
+  }

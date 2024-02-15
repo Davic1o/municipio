@@ -1,0 +1,46 @@
+/* En tu archivo CSS para el Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: linear-gradient(to right, rgb(16, 0, 235) 1%, rgb(253, 0, 0));
+    border: 1px solid #ccc;
+    z-index: 1000;
+  }
+  
+  .modal.open {
+    display: block;
+  }
+  
+  .modal-content {
+    text-align: center;
+  }
+  
+  .close {
+    cursor: pointer;
+    position: absolute;
+    top: 0.01vh;
+    right: 0.2vh;
+    font-size: 40px;
+  }
+  
+  .time-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  button.selected {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  

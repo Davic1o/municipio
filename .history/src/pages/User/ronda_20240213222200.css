@@ -1,0 +1,69 @@
+.contenedor__calendario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.486) 1%, rgba(16, 0, 235, 0.308));
+    width: 50vw;
+    height: 60vh;
+
+}
+.titulo__rondas{
+
+    width: 20vw;
+    height: 8vh;
+}
+.menu__rondas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    width: 30vw;
+    height: 20vh;
+}
+.tabla__rondas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    width: 30vw;
+    height: 20vh;
+}
+.tabla__titulo__rondas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    width: 30vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+th{
+    margin: 2px solid;
+    height: 10vh;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+}
+.tabla__cuerpo__rondas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    width: 30vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+.tabla__cuerpo__rondas tr td{
+    margin: 2px solid;
+    height: 10vh;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,16 @@
+.login__container {
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.514) 1%, rgba(16, 0, 235, 0.514));
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.login__recuadro{
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.514) 1%, rgba(16, 0, 235, 0.514));
+}

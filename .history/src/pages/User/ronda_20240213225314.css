@@ -1,0 +1,80 @@
+.contenedor__calendario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.486) 1%, rgba(16, 0, 235, 0.308));
+    width: 50vw;
+    height: 60vh;
+
+}
+.titulo__rondas{
+    width: 20vw;
+    height: 8vh;
+}
+.menu__rondas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 10vh;
+}
+.tabla__rondas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 20vh;
+}
+.tabla__titulo__rondas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+.tabla__cuerpo__rondas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+.dias__titulo{
+    font-size: 3.5vh;
+    height: 12vh;
+    width: 25vw;
+    justify-content: center;
+}
+.dias__cuerpo{
+    font-size: 3.5vh;
+    padding-left: 4vh;
+    height: 12vh;
+    width: 10vw;
+    justify-content: center;
+
+}
+.flecha__semana{
+    font-size: 4vh;
+    color: white;
+}
+
+.flecha__semana:hover{
+    font-size: 4vh;
+    color: rgb(0, 131, 109);
+}
+
+.dias__cuerpo:hover{
+    border-radius: 2vh;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,5 @@
+.contenedor__calendario{
+    margin: 10vh 1vw;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.486) 1%, rgba(16, 0, 235, 0.308));
+    width: 50vh;
+}

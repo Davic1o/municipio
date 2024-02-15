@@ -1,0 +1,12 @@
+.tabla__administrativa{
+    background-color: aqua;
+    padding: 5vh;
+}
+
+
+
+.titulo__tabla{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+}

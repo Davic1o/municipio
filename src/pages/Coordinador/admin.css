@@ -1,0 +1,56 @@
+.admin__container {
+    background-image:  url('../../images/fondo_informacion.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    z-index: 0;
+    color: aliceblue;
+}
+.menu__lateral{
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.486) 1%, rgba(16, 0, 235, 0.308));
+    height: 100vh;
+    width: 20vw;
+    
+}
+.contenido__derecho{
+    color: white;
+    margin: 5vh 20vh;
+}
+.botones__tabla{
+
+    display: flex;
+    justify-content:space-around;
+}
+
+.boton__aceptar{
+    height: 5vh;
+    width: 7vw;
+    background-color:aquamarine;
+    border-radius: 2vh;
+}
+
+.boton__rechazar{
+    height: 5vh;
+    width: 7vw;
+    background-color:rgb(179, 190, 78);
+    border-radius: 2vh;
+}
+
+.boton__aceptar:hover{
+    height: 5vh;
+    width: 7vw;
+    background-color:rgb(33, 11, 231);
+    border-radius: 2vh;
+}
+
+.boton__rechazar:hover{
+    height: 5vh;
+    width: 7vw;
+    background-color:rgb(207, 30, 24);
+    border-radius: 2vh;
+}
+.boton__coordinador{
+    width: 10vw;
+}

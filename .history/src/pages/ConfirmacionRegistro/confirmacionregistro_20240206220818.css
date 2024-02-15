@@ -1,0 +1,11 @@
+.contenedor__confirmacion{
+    background-image:  url('../../images/fondo_informacion.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}

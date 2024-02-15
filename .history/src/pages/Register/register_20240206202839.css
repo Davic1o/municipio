@@ -1,0 +1,44 @@
+
+.register__recuadro{
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.288) 1%, rgba(16, 0, 235, 0.171));
+}
+.register__formulario{
+    margin-top: 130px;
+}
+
+.contenedor__zona{
+    width: 325px;
+    margin: 25px;
+    display: flex;
+    justify-content: right;
+    border-bottom: 2px solid white;
+}
+
+
+.contenedor__zona select {
+    width: 250px;
+    margin: 0px;
+    justify-content: right;
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(0, 20, 50);
+    border: none;
+   
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos adicionales para resaltar el texto del placeholder */
+  .contenedor__zona select::placeholder {
+    color: rgba(255, 255, 255, 0.336);
+    font-size: 18px;
+  }
+  
+  .contenedor__zona select:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255); /* Cambia el color del borde cuando el select está enfocado */
+  }

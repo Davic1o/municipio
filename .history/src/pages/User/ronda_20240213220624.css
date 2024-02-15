@@ -1,0 +1,15 @@
+.contenedor__calendario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh 1vw;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.486) 1%, rgba(16, 0, 235, 0.308));
+    width: 50vw;
+    height: 60vh;
+
+}
+.titulo__rondas{
+    width: 20vw;
+    height: 20vh;
+}

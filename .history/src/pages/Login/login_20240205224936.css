@@ -1,0 +1,37 @@
+.login__container {
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.514) 1%, rgba(16, 0, 235, 0.514));
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.login__recuadro{
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.288) 1%, rgba(16, 0, 235, 0.171));
+}
+.login__formulario{
+    margin-top: 200px;
+}
+.contenedor__nombre{
+    margin: 25px;
+    display: flex;
+}
+.icon__nombre{
+    background-color: transparent;
+    color: white;
+}
+.inp__nombre{
+    border-bottom: 2px solid white ;
+    background-color: transparent;
+    width: 300px; 
+}
+.inp__nombre::placeholder{
+    font-size: 18px;
+color: rgba(255, 255, 255, 0.767);
+}

@@ -1,0 +1,19 @@
+.tabla__administrativa{
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.226) 1%, rgba(16, 0, 235, 0.308));
+    padding: 2vh;
+    border-radius: 2vh;
+}
+
+
+
+.titulo__tabla{
+    border: 3px solid;
+    height: 7vh;
+    width: 100vw;
+}
+.fila__tabla:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}

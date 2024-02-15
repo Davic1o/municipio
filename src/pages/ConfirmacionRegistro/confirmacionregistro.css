@@ -1,0 +1,43 @@
+.contenedor__confirmacion{
+    background-image:  url('../../images/fondo_informacion.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
+}
+.titulo__confirmacion{
+    margin-top: 60px;
+    color: white;
+    font-size: 60px;
+}
+.datos__confirmacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 600px;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.288) 1%, rgba(16, 0, 235, 0.171));
+
+    margin-top: 10px;
+}
+.datos__reg{
+    margin-top: 5px;
+    font-size: 30px;
+    color: white;
+}
+.datos__reg span{
+    margin-top: 5px;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.384);
+}
+.icono__atras{
+    font-size: 50px;
+    font-weight: bold;
+}

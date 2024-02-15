@@ -1,0 +1,10 @@
+
+.register__recuadro{
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.288) 1%, rgba(16, 0, 235, 0.171));
+}
+.register__formulario{
+    margin-top: 130px;
+}

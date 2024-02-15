@@ -1,0 +1,92 @@
+.login__container {
+    background-image:  url('../../images/fondo_informacion.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.login__recuadro{
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.288) 1%, rgba(16, 0, 235, 0.171));
+}
+.login__formulario{
+    margin-top: 200px;
+}
+.contenedor__nombre, .contenedor__password{
+    padding-top: 25px;
+    width: 325px;
+    margin: 25px;
+    display: flex;
+    border-bottom: 2px solid white ;
+}
+.icon__nombre, .icon__password{
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+.inp__nombre, .inp__password{
+
+    background-color: transparent;
+    width: 300px; 
+    height: 25px;
+    font-size: 18px;
+    color: white;
+}
+.inp__nombre::placeholder, .inp__password::placeholder{
+    font-size: 18px;
+color: rgba(255, 255, 255, 0.336);
+}
+.inp__nombre:focus, .inp__password:focus{
+    outline: none;
+    font-size: 18px;
+    border: none;
+    color: white;
+}
+.contenedor__recuerdame{
+    width: 325px;
+    margin: 25px;
+    display: flex;
+}
+.inp__recuerdame{
+    transform: scale(1.5);
+    margin-right: 20px;
+}
+.lbl__recuerdame{
+    font-size: 18px;
+    color: white;
+}
+.contenedor__registrar{
+    width: 325px;
+    margin: 25px;
+    display: flex;
+    justify-content: right;
+}
+.lbl__registrar{
+    color: white;
+}
+.lbl__registrar:hover{
+    color: blue;
+    cursor: pointer;
+}
+.contendor__ingresar{
+
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.514) 1%, rgba(16, 0, 235, 0.514));
+    border-radius: 15px;
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+}
+.btn__ingresar{
+    height: 45px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+
+}

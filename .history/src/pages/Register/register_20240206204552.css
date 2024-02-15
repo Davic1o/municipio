@@ -1,0 +1,46 @@
+
+.register__recuadro{
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgba(253, 0, 0, 0.288) 1%, rgba(16, 0, 235, 0.171));
+}
+.register__formulario{
+    margin-top: 60px;
+}
+
+.contenedor__zona {
+    width: 325px;
+    margin: 25px;
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-end; /* Alinea el contenido a la derecha */
+    border-bottom: 2px solid white;
+  }
+  
+  .contenedor__zona select {
+    width: 300px;
+    margin: 0px;
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(0, 20, 50);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .contenedor__zona select:not(:focus) {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.336);
+  }
+  
+  .contenedor__zona select:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0); /* Cambia el color del borde cuando el select está enfocado */
+    background-color: #ffcccb; /* Color de fondo cuando el select está abierto */
+  }
+   .contenedor__zona select:focus option[value=""]:first-child {
+    color: rgba(255, 255, 255, 0); /* Puedes ajustar el color según tus preferencias */
+  }
+  
+  

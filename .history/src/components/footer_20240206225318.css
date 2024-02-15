@@ -1,0 +1,12 @@
+.footer__contenedor{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.footer__contenedor div{
+    margin: 5px;
+}
